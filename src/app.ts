@@ -1,6 +1,8 @@
 import express, { ErrorRequestHandler } from "express";
 import { AppDataSource } from "~/datasource";
 import { ChatSystemError } from "~/module";
+import morgan from "morgan";
+import { userRouter } from "./router/user";
 
 const app = express();
 
@@ -21,6 +23,10 @@ const defaultErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
     return res.status(500).json(err);
   }
 };
+
+app.use(morgan("dev"));
+app.use(express.json());
+app.use("/user", userRouter);
 
 app.use(defaultErrorHandler);
 

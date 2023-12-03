@@ -27,9 +27,12 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@types/express", "npm:4.17.21"],\
+          ["@types/morgan", "npm:1.9.9"],\
           ["@types/node", "npm:20.10.2"],\
           ["@types/pg", "npm:8.10.9"],\
+          ["class-validator", "npm:0.14.0"],\
           ["express", "npm:4.18.2"],\
+          ["morgan", "npm:1.10.0"],\
           ["nodemon", "npm:3.0.2"],\
           ["pg", "virtual:c32c15253d205bdf4d2c2c4cb416747019c59be691b7a853a01bf41a07670b939f0ce3807e4a1bf9b2160b626e5de5bcefbe47cecf2149ca5f5eb89db99961db#npm:8.11.3"],\
           ["prettier", "npm:3.1.0"],\
@@ -266,6 +269,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/morgan", [\
+      ["npm:1.9.9", {\
+        "packageLocation": "./.yarn/cache/@types-morgan-npm-1.9.9-6cc99aae91-2b310c6f7c.zip/node_modules/@types/morgan/",\
+        "packageDependencies": [\
+          ["@types/morgan", "npm:1.9.9"],\
+          ["@types/node", "npm:20.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/node", [\
       ["npm:20.10.2", {\
         "packageLocation": "./.yarn/cache/@types-node-npm-20.10.2-362c02a091-c24630d6bd.zip/node_modules/@types/node/",\
@@ -325,6 +338,15 @@ const RAW_RUNTIME_STATE =
           ["@types/http-errors", "npm:2.0.4"],\
           ["@types/mime", "npm:3.0.4"],\
           ["@types/node", "npm:20.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/validator", [\
+      ["npm:13.11.7", {\
+        "packageLocation": "./.yarn/cache/@types-validator-npm-13.11.7-1eda8f8948-9ca2a047d6.zip/node_modules/@types/validator/",\
+        "packageDependencies": [\
+          ["@types/validator", "npm:13.11.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -493,6 +515,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["basic-auth", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/basic-auth-npm-2.0.1-f1627ef330-05f56db3a0.zip/node_modules/basic-auth/",\
+        "packageDependencies": [\
+          ["basic-auth", "npm:2.0.1"],\
+          ["safe-buffer", "npm:5.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["binary-extensions", [\
       ["npm:2.2.0", {\
         "packageLocation": "./.yarn/cache/binary-extensions-npm-2.2.0-180c33fec7-d73d8b8972.zip/node_modules/binary-extensions/",\
@@ -631,9 +663,12 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["chat-system", "workspace:."],\
           ["@types/express", "npm:4.17.21"],\
+          ["@types/morgan", "npm:1.9.9"],\
           ["@types/node", "npm:20.10.2"],\
           ["@types/pg", "npm:8.10.9"],\
+          ["class-validator", "npm:0.14.0"],\
           ["express", "npm:4.18.2"],\
+          ["morgan", "npm:1.10.0"],\
           ["nodemon", "npm:3.0.2"],\
           ["pg", "virtual:c32c15253d205bdf4d2c2c4cb416747019c59be691b7a853a01bf41a07670b939f0ce3807e4a1bf9b2160b626e5de5bcefbe47cecf2149ca5f5eb89db99961db#npm:8.11.3"],\
           ["prettier", "npm:3.1.0"],\
@@ -669,6 +704,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/chownr-npm-2.0.0-638f1c9c61-594754e130.zip/node_modules/chownr/",\
         "packageDependencies": [\
           ["chownr", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["class-validator", [\
+      ["npm:0.14.0", {\
+        "packageLocation": "./.yarn/cache/class-validator-npm-0.14.0-b600d5fe72-1f7c34052f.zip/node_modules/class-validator/",\
+        "packageDependencies": [\
+          ["class-validator", "npm:0.14.0"],\
+          ["@types/validator", "npm:13.11.7"],\
+          ["libphonenumber-js", "npm:1.10.51"],\
+          ["validator", "npm:13.11.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1538,6 +1585,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["libphonenumber-js", [\
+      ["npm:1.10.51", {\
+        "packageLocation": "./.yarn/cache/libphonenumber-js-npm-1.10.51-4ff79b15f8-67a57a43b2.zip/node_modules/libphonenumber-js/",\
+        "packageDependencies": [\
+          ["libphonenumber-js", "npm:1.10.51"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lru-cache", [\
       ["npm:10.1.0", {\
         "packageLocation": "./.yarn/cache/lru-cache-npm-10.1.0-f3d3a0f0ab-778bc8b262.zip/node_modules/lru-cache/",\
@@ -1778,6 +1834,20 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["morgan", [\
+      ["npm:1.10.0", {\
+        "packageLocation": "./.yarn/cache/morgan-npm-1.10.0-a0da109b6b-684db061da.zip/node_modules/morgan/",\
+        "packageDependencies": [\
+          ["morgan", "npm:1.10.0"],\
+          ["basic-auth", "npm:2.0.1"],\
+          ["debug", "virtual:759fd14db92b54abdb7afb3d21dbf8d50f1a5c59c96cd3f963ce3e3ed063bdb801142fae5f01cc81fb79f7ddc13b7c31a9deb9d5a9cfa48ec107f83de8f7f40e#npm:2.6.9"],\
+          ["depd", "npm:2.0.0"],\
+          ["on-finished", "npm:2.3.0"],\
+          ["on-headers", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ms", [\
       ["npm:2.0.0", {\
         "packageLocation": "./.yarn/cache/ms-npm-2.0.0-9e1101a471-f8fda810b3.zip/node_modules/ms/",\
@@ -1915,11 +1985,28 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["on-finished", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "./.yarn/cache/on-finished-npm-2.3.0-4ce92f72c6-c904f9e518.zip/node_modules/on-finished/",\
+        "packageDependencies": [\
+          ["on-finished", "npm:2.3.0"],\
+          ["ee-first", "npm:1.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:2.4.1", {\
         "packageLocation": "./.yarn/cache/on-finished-npm-2.4.1-907af70f88-46fb11b906.zip/node_modules/on-finished/",\
         "packageDependencies": [\
           ["on-finished", "npm:2.4.1"],\
           ["ee-first", "npm:1.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["on-headers", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "./.yarn/cache/on-headers-npm-1.0.2-e7cd3ea25e-f649e65c19.zip/node_modules/on-headers/",\
+        "packageDependencies": [\
+          ["on-headers", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2364,6 +2451,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["safe-buffer", [\
+      ["npm:5.1.2", {\
+        "packageLocation": "./.yarn/cache/safe-buffer-npm-5.1.2-c27fedf6c4-780ba6b5d9.zip/node_modules/safe-buffer/",\
+        "packageDependencies": [\
+          ["safe-buffer", "npm:5.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:5.2.1", {\
         "packageLocation": "./.yarn/cache/safe-buffer-npm-5.2.1-3481c8aa9b-6501914237.zip/node_modules/safe-buffer/",\
         "packageDependencies": [\
@@ -2957,6 +3051,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/v8-compile-cache-lib-npm-3.0.1-4886071ece-bdc36fb809.zip/node_modules/v8-compile-cache-lib/",\
         "packageDependencies": [\
           ["v8-compile-cache-lib", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["validator", [\
+      ["npm:13.11.0", {\
+        "packageLocation": "./.yarn/cache/validator-npm-13.11.0-f0143e2784-0107da3add.zip/node_modules/validator/",\
+        "packageDependencies": [\
+          ["validator", "npm:13.11.0"]\
         ],\
         "linkType": "HARD"\
       }]\
