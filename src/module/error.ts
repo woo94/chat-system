@@ -14,4 +14,12 @@ export class ChatSystemError extends Error {
       message: this.message,
     };
   }
+
+  public static badParamErr = (message?: string) => {
+    return new ChatSystemError(400, "bad-param", message);
+  };
+
+  public static internalErr = (message?: string) => {
+    return new ChatSystemError(500, "internal-error", message);
+  };
 }
