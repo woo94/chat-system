@@ -8,4 +8,5 @@ export const AppDataSource = new DataSource({
   username: "postgres",
   password: "my-secret",
   entities: [User],
+  synchronize: true,
 });
