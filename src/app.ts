@@ -16,10 +16,10 @@ AppDataSource.initialize()
   });
 
 const defaultErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
-  console.log(err);
   if (err instanceof ChatSystemError) {
     return res.status(err.status).json(err.body);
   } else {
+    console.log(err);
     return res.status(500).json(err);
   }
 };

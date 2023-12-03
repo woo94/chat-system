@@ -9,4 +9,5 @@ export const AppDataSource = new DataSource({
   password: "my-secret",
   entities: [User],
   synchronize: true,
+  logging: ["error"],
 });

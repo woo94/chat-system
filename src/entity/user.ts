@@ -4,9 +4,10 @@ import {
   PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
+  Index,
 } from "typeorm";
 
-import { IsEmail, isEmail, isString, Length } from "class-validator";
+import { IsEmail, Length } from "class-validator";
 
 @Entity()
 export class User {
@@ -18,6 +19,7 @@ export class User {
   name: string;
 
   @IsEmail()
+  @Index({ unique: true })
   @Column()
   email: string;
 
