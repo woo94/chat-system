@@ -27,12 +27,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@types/express", "npm:4.17.21"],\
+          ["@types/fs-extra", "npm:11.0.4"],\
           ["@types/jsonwebtoken", "npm:9.0.5"],\
           ["@types/morgan", "npm:1.9.9"],\
           ["@types/node", "npm:20.10.2"],\
           ["@types/pg", "npm:8.10.9"],\
           ["class-validator", "npm:0.14.0"],\
           ["express", "npm:4.18.2"],\
+          ["fs-extra", "npm:11.2.0"],\
           ["jsonwebtoken", "npm:9.0.2"],\
           ["morgan", "npm:1.10.0"],\
           ["nodemon", "npm:3.0.2"],\
@@ -246,11 +248,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/fs-extra", [\
+      ["npm:11.0.4", {\
+        "packageLocation": "./.yarn/cache/@types-fs-extra-npm-11.0.4-e30a7fec50-9e34f9b24e.zip/node_modules/@types/fs-extra/",\
+        "packageDependencies": [\
+          ["@types/fs-extra", "npm:11.0.4"],\
+          ["@types/jsonfile", "npm:6.1.4"],\
+          ["@types/node", "npm:20.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/http-errors", [\
       ["npm:2.0.4", {\
         "packageLocation": "./.yarn/cache/@types-http-errors-npm-2.0.4-8b39ca5d7c-494670a57a.zip/node_modules/@types/http-errors/",\
         "packageDependencies": [\
           ["@types/http-errors", "npm:2.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/jsonfile", [\
+      ["npm:6.1.4", {\
+        "packageLocation": "./.yarn/cache/@types-jsonfile-npm-6.1.4-33f021b8d9-b12d068b02.zip/node_modules/@types/jsonfile/",\
+        "packageDependencies": [\
+          ["@types/jsonfile", "npm:6.1.4"],\
+          ["@types/node", "npm:20.10.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -684,12 +707,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["chat-system", "workspace:."],\
           ["@types/express", "npm:4.17.21"],\
+          ["@types/fs-extra", "npm:11.0.4"],\
           ["@types/jsonwebtoken", "npm:9.0.5"],\
           ["@types/morgan", "npm:1.9.9"],\
           ["@types/node", "npm:20.10.2"],\
           ["@types/pg", "npm:8.10.9"],\
           ["class-validator", "npm:0.14.0"],\
           ["express", "npm:4.18.2"],\
+          ["fs-extra", "npm:11.2.0"],\
           ["jsonwebtoken", "npm:9.0.2"],\
           ["morgan", "npm:1.10.0"],\
           ["nodemon", "npm:3.0.2"],\
@@ -1203,6 +1228,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["fs-extra", [\
+      ["npm:11.2.0", {\
+        "packageLocation": "./.yarn/cache/fs-extra-npm-11.2.0-6783080799-d77a9a9efe.zip/node_modules/fs-extra/",\
+        "packageDependencies": [\
+          ["fs-extra", "npm:11.2.0"],\
+          ["graceful-fs", "npm:4.2.11"],\
+          ["jsonfile", "npm:6.1.0"],\
+          ["universalify", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["fs-minipass", [\
       ["npm:2.1.0", {\
         "packageLocation": "./.yarn/cache/fs-minipass-npm-2.1.0-501ef87306-703d16522b.zip/node_modules/fs-minipass/",\
@@ -1614,6 +1651,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/json5-npm-2.2.3-9962c55073-5a04eed948.zip/node_modules/json5/",\
         "packageDependencies": [\
           ["json5", "npm:2.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["jsonfile", [\
+      ["npm:6.1.0", {\
+        "packageLocation": "./.yarn/cache/jsonfile-npm-6.1.0-20a4796cee-4f95b5e8a5.zip/node_modules/jsonfile/",\
+        "packageDependencies": [\
+          ["jsonfile", "npm:6.1.0"],\
+          ["graceful-fs", "npm:4.2.11"],\
+          ["universalify", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3153,6 +3201,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["unique-slug", "npm:4.0.0"],\
           ["imurmurhash", "npm:0.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["universalify", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/universalify-npm-2.0.1-040ba5a21e-73e8ee3809.zip/node_modules/universalify/",\
+        "packageDependencies": [\
+          ["universalify", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
