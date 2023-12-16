@@ -15,16 +15,16 @@ export class User {
   id: number;
 
   @Length(3)
-  @Column({type: 'string'})
+  @Column({type: 'varchar'})
   name: string;
 
   @IsEmail()
   @Index({ unique: true })
-  @Column({type: 'string'})
+  @Column({type: 'varchar'})
   email: string;
 
   @Length(6)
-  @Column({type: 'string'})
+  @Column({type: 'varchar'})
   password: string;
 
   @CreateDateColumn()
