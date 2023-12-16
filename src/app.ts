@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 import express, { ErrorRequestHandler } from "express";
 import { AppDataSource } from "~/datasource";
 import { ChatSystemError } from "~/module";
